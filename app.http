@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/register/
+Content-Type: "application/json"
+
+{
+  "username": "mahesh",
+  "password": "mahesh_567",
+  "name": "Mahesh Babu",
+  "gender": "male"
+}
+
+###
+DELETE http://localhost:3000/tweets/5/
+
+###
+POST http://localhost:3000/login/
+Content-Type: "application/json"
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
